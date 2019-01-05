@@ -1,0 +1,44 @@
+{
+  "name": "pl-layer",
+  "version": "1.0.0",
+  "description": "support npm install",
+  "main": "./dist/pl-layer.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xskjs888/pl-layer.git"
+  },
+  "keywords": [
+    "pl-layer",
+    "layer"
+  ],
+  "author": "pl125",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xskjs888/pl-layer/issues"
+  },
+  "homepage": "https://github.com/xskjs888/pl-layer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  },
+  "dependencies": {}
+}
