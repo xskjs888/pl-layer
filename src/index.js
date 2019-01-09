@@ -1072,7 +1072,7 @@ layer.closeAll = function(type) {
   })
 }
 
-/** 
+/**
   拓展模块
  */
 const cache = layer.cache || {},
@@ -1463,5 +1463,6 @@ layer.init = function(_$ = window.jQuery, isGlobal = true) {
     window.layer = layer
   }
 }
+layer.init()
 
 export default layer
