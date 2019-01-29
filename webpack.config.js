@@ -19,7 +19,7 @@ module.exports = {
 
     libraryTarget: 'umd' // 定义打包方式Universal Module Definition,同时支持在CommonJS、AMD和全局变量使用
   },
-
+  devtool:'source-map',
   mode: 'production',
 
   module: {

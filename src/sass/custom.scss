@@ -1,0 +1,168 @@
+/* 定制化 */
+.layui-layer-ico1 {
+  background-position: -30px 0;
+}
+.layui-layer-ico2 {
+  background-position: -60px 0;
+}
+.layui-layer-ico3 {
+  background-position: -90px 0;
+}
+.layui-layer-ico4 {
+  background-position: -120px 0;
+}
+.layui-layer-ico5 {
+  background-position: -150px 0;
+}
+.layui-layer-ico6 {
+  background-position: -180px 0;
+}
+.layui-layer-dialog {
+  min-width: 260px;
+  .layui-layer-content {
+    position: relative;
+    padding: 20px;
+    line-height: 24px;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .layui-layer-ico {
+      position: absolute;
+      top: 16px;
+      left: 15px;
+      _left: -40px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+.layui-layer-rim {
+  border: 6px solid #8d8d8d;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: none;
+}
+.layui-layer-msg {
+  min-width: 180px;
+  border: 1px solid #d3d4d3;
+  box-shadow: none;
+}
+.layui-layer-hui {
+  min-width: 100px;
+  background-color: #000;
+  filter: alpha(opacity=60);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  .layui-layer-content {
+    padding: 12px 25px;
+    text-align: center;
+  }
+}
+.layui-layer-dialog .layui-layer-padding {
+  padding: 20px 20px 20px 55px;
+  text-align: left;
+}
+.layui-layer-page {
+  text-align: center;
+  .layui-layer-content {
+    position: relative;
+    overflow: auto;
+    text-align: left;
+    @include webkit-overflow;
+  }
+}
+.layui-layer-page,
+.layui-layer-iframe {
+  .layui-layer-btn {
+    padding-top: 10px;
+  }
+}
+.layui-layer-nobg {
+  background: none;
+}
+.layui-layer-iframe iframe {
+  display: block;
+  width: 100%;
+}
+.layui-layer-loading {
+  border-radius: 10px;
+  background:  rgba(0, 0, 0, 0.7);
+  padding:15px;
+  width: auto;
+  box-shadow: none;
+  border: none;
+  .layui-layer-content {
+    width: 60px;
+    height: 24px;
+    background: url(../images/loading-0.gif) no-repeat;
+  }
+  .layui-layer-loading1 {
+    width: 37px;
+    height: 37px;
+    background: url(../images/loading-1.gif) no-repeat;
+  }
+}
+.layui-layer-loading .layui-layer-loading2,
+.layui-layer-ico16 {
+  width: 56px;
+  height: 56px;
+  background: url(../images/loading-2.gif) no-repeat center center/contain;
+}
+
+.layui-layer-tips {
+  background: none;
+  box-shadow: none;
+  border: none;
+  .layui-layer-content {
+    position: relative;
+    line-height: 22px;
+    min-width: 12px;
+    padding: 8px 15px;
+    font-size: 12px;
+    _float: left;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: #000;
+    color: #fff;
+  }
+  .layui-layer-close {
+    right: -2px;
+    top: -1px;
+  }
+  i.layui-layer-TipsG {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-color: transparent;
+    border-style: dashed;
+    *overflow: hidden;
+  }
+  i.layui-layer-TipsT,
+  i.layui-layer-TipsB {
+    left: 5px;
+    border-right-style: solid;
+    border-right-color: #000;
+  }
+  i.layui-layer-TipsT {
+    bottom: -8px;
+  }
+  i.layui-layer-TipsB {
+    top: -8px;
+  }
+  i.layui-layer-TipsR,
+  i.layui-layer-TipsL {
+    top: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+  }
+  i.layui-layer-TipsR {
+    left: -8px;
+  }
+  i.layui-layer-TipsL {
+    right: -8px;
+  }
+}
