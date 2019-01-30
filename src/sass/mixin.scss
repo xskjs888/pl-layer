@@ -1,0 +1,10 @@
+@mixin webkit-overflow($color:#56dddf,$width:4px) {
+  overflow: auto;
+  &::-webkit-scrollbar{
+    width: $width;
+  }
+  &::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: rgba($color,.5);
+  }
+}

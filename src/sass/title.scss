@@ -1,0 +1,88 @@
+/* 标题栏 */
+.layui-layer-title {
+  display: inline-block;
+  position: relative;
+  top:-18px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: $text-color;
+  white-space: nowrap;
+  min-width: 140px;
+  text-align: center;
+  border: 1px solid #3493ac;
+  background-color: darken($brand-primary,5%);
+  padding: 0 10px;
+  border-radius: 42px;
+  white-space: nowrap;
+}
+.layui-layer-setwin {
+  position: absolute;
+  right: 15px;
+  *right: 0;
+  top: 15px;
+  font-size: 0;
+  line-height: initial;
+  a {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    font-size: 12px;
+    _overflow: hidden;
+  }
+  .layui-layer-min{
+    cite {
+      position: absolute;
+      width: 14px;
+      height: 2px;
+      left: 0;
+      top: 50%;
+      margin-top: -1px;
+      background-color: #2e2d3c;
+      cursor: pointer;
+      _overflow: hidden;
+    }
+    &:hover{
+      cite{
+        background-color: #2d93ca;
+      }
+    }
+  }
+  .layui-layer-max {
+    background-position: -32px -40px;
+    &:hover{
+      background-position: -16px -40px;
+    }
+  }
+  .layui-layer-maxmin {
+    background-position: -65px -40px;
+    &:hover {
+      background-position: -49px -40px;
+    }
+  }
+  .layui-layer-close1 {
+    background-position: 1px -40px;
+    background: url(#{$sassImagePath}/icon_close_btn.png) no-repeat center center;
+    background-size: 120 auto;
+    cursor: pointer;
+    transition: opacity .25s 0s ease-out;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  .layui-layer-close2 {
+    position: absolute;
+    right: -28px;
+    top: -28px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -149px -31px;
+    *right: -18px;
+    _display: none;
+    &:hover {
+      background-position: -180px -31px;
+    }
+  }
+}
