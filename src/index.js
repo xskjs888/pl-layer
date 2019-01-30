@@ -1,7 +1,5 @@
 'use strict'
 
-import './sass/layer.scss'
-
 let win = null // win 对象
 
 let $ = null // jquery 对象
