@@ -1,6 +1,6 @@
 {
   "name": "pl-layer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "support npm install",
   "main": "./dist/pl-layer.js",
   "scripts": {
@@ -41,6 +41,6 @@
     "webpack-cli": "^3.2.0"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^1.11.3"
   }
 }
